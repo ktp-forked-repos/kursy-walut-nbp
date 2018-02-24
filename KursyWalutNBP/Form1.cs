@@ -104,6 +104,7 @@ namespace KursyWalutNBP
         private void Form1_Load(object sender, EventArgs e)
         {
             //MessageBox.Show(GetAPI());
+            numericUpDown1.Maximum = Decimal.MaxValue;
             LoadToTable(GetAPI());
         }
 
